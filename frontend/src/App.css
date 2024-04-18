@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+}
+
+.notification-container {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 130px;
+    z-index: 99999;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.categories-list{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+}
+
+.categories-list .categories-item{
+    display: flex;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 0;
+    overflow: hidden;
+    width: fit-content;
+}
+
+.categories-list .categories-item .genre-name{
+    padding: 4px 15px;
+    cursor: pointer;
+}
+
+.categories-list .categories-item input{
+    width: 100px;
+    outline: none;
+    border: none;
+    padding: 4px 15px;
+}
+
+.categories-list .categories-item button{
+    border: none;
+}
